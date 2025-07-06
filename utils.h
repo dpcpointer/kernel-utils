@@ -17,4 +17,3 @@ void* get_kernel_function_export(const wchar_t* module_name, const char* functio
 void* signature_scan(void* base, size_t size, const char* pattern, const char* mask);
 BOOLEAN is_inside_module(void* address);
 UNICODE_STRING get_module_name(void* address);
-PKPRCB KeGetCurrentPrcb();
